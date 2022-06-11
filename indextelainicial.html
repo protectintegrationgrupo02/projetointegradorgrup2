@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stely.css">
+    <link rel="preload" href="stely.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"  rel="stylesheet">
+    <title>Barbearia</title>
+</head>
+<body>
+    <header class="header" >
+        <a id="logo" href="">Logo</a>
+        <nav class="nav">
+          <ul class="menu" role="menu">
+            <li><a  href="#"> <button id="cadastro"  onclick="openModal('dv-modal')">Cadastre-se</button></a></li>
+            <li><a href="#"> <button id="entrar"  onclick="openModal01('dv-modal01')">Entrar</button></a></li>      
+          </ul>
+        </nav>
+      </header>
+      <div id="dv-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+              <button   onclick="closeModal('dv-modal')">X</button>
+            </div>
+            <div class="modal-body">
+          <p class="crie-conta">Crie sua Conta</p>
+           <div class="nome">
+                <input  type="text" placeholder="Nome completo"required>            
+            </div>
+            <div class="celular">   
+                    
+                    <input class="telefone" type="tel" name="celular" placeholder="Seu Celular"required>
+                </div>
+               <div class="cpf">
+                    
+                    <input  type="CPF" placeholder="Seu Cpf" required>
+                </div>             
+            
+             <div class="email">
+                <input  type="email"  placeholder="E-mail"  required>      
+            </div>
+           <div class="senha01"> 
+                   
+                    <input placeholder="Senha"   type="password" required>
+           </div>
+                <div class="senha02">
+                    <input placeholder="Confirmar Senha"  type="password" required>            
+            </div>
+
+            <div class="btn-enviar">
+              <a href="#"> <button>Enviar</button></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      
+      <div id="dv-modal01" class="modal01">
+        <div class="modal01-content">
+            <div class="modal01-header">
+              <button   onclick="closeModal01('dv-modal01')">X</button>
+            </div>
+            <div class="modal01-body">
+          <p class="crie-conta">Login</p>
+           <div class="nome01">
+                <input  type="text" placeholder="e-mail ou usuário"required>            
+            </div>
+         
+           <div class="senha03"> 
+                   
+                    <input placeholder="Senha"   type="password" required>
+           </div>
+          <label id="label" for="esquecer">Esqueci a senha</label>
+                  <p class="ou">ou</p>
+                  <div class="rede-social">
+                    <ul>
+                        <li><img src="imag/insta.png" ></li>
+                        <li><img src="imag/google-icon-4.png" ></li>
+                     
+                    </ul>
+                </div>
+
+            <div class="btn-entrar">
+              <a href="Agenda/agenda.html"> <button>Entrar</button></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <Script src="project.js"></Script>
+</body>
+</html>
