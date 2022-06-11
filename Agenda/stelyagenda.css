@@ -239,16 +239,10 @@ body{
          justify-content: center;
         align-items: flex-start;
         background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
-        height: 38vh;
+        height: 68vh;
     }
     
-    .modal-footer{
-        display: flex;
-        justify-content: flex-start;
-       align-items: flex-start;
-       background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
-       height: 30vh;
-    }
+   
     
     .modal-header button{
        
@@ -270,24 +264,21 @@ body{
         
         z-index: 4;
     }
-    .textbox input{
+    .textbox label{
         border: none;
         outline: none;
         background-color: transparent;
         border-radius: 20px;
-        font-size: 1.5rem;
+        font-size: 2rem;
         height: 5vh;
        text-align: center;
        padding: 0 3rem;
        border: none;
        outline: none;
-       border-bottom: 3px solid white;
+       border-bottom: 3px solid none;
+       color: white;
     }
-    .textbox  input::placeholder{
-      color: white;
-     
-      
-    }
+   
     .dat{
         
         position: absolute;
@@ -295,12 +286,15 @@ body{
         justify-content: center;
         align-items: center;
         width: 25vw;
-        height: 25vh; 
+        margin-top: 6rem;
+        height: 0vh; 
         z-index: 3;  
     }  
     .dat input{
         border: none;
         outline: none;
+        width: 20vw;
+        height: 5vh;
         border-radius: 15px;
         font-size: 1.5rem; 
         text-align: center;
@@ -310,12 +304,15 @@ body{
         display: flex;
         justify-content: flex-start;
         align-items: flex-end;
-        width: 2vw;
-        height: 36.2vh;
+        width: 26vw;
+        height: 0vh;
+        margin-top: 13rem;
         
     }
     
     .funcionario #funcionario{
+      width: 12.8vw;
+      height: 5vh;
         border: none;
         outline: none;
         font-size: 1.3rem;
@@ -324,16 +321,19 @@ body{
         padding: 0 1rem 0 1rem;
     } 
     .servico{
-       
+      
         position: absolute;
         display: flex;
         justify-content: flex-end;
         align-items: flex-end;
-        width: 23vw;
-        height: 27.2vh;
+        width: 26vw;
+        height: 0vh;
+        margin-top: 13rem;
         
     }
     .servico #servico{
+      width: 12.8vw;
+      height: 5vh;
         border: none;
         outline: none;
         font-size: 1.3rem;
@@ -343,20 +343,23 @@ body{
     } 
     
     .form-pague{
-    
+     
         position: absolute;
         display: flex;
         justify-content: center;
         align-items: flex-end;
-        width: 15vw;
-        height: 9vh;
+        width: 30vw;
+        height: 0vh;
+        margin-top: 20rem;
         z-index: 1;
         
     }
     .form-pague #form-pague{
+        width: 20vw;
+        height: 5vh;
         border: none;
         outline: none;
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         text-align: center;
         border-radius: 15rem;
         padding: 0 1rem 0 1rem;
@@ -364,33 +367,43 @@ body{
     } 
     
     .form{
-        
+      
+      width: 30vw;
+      height: 0vh;
+      margin-top: 17.4rem;
         position: absolute;
         display: flex;
-        justify-content: flex-start;
-        font-size: 1.3rem;
-        font-weight: bold;
+        justify-content: center;
+        align-items: flex-end;
+        font-size: 1.5rem;
+        font-weight: none;
         color: white;
-        padding: 0 1.2rem;
+        padding: 0 -1rem;
     
     }
-    
+    .cartao {
+     
+      position: absolute;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-end;
+      float: left;
+      width: 28vw;
+      height: 0vh;
+      margin-top: 32rem;
+      list-style: none;
+      padding: 0 -2rem 0 ;
+  }
     .cartao ul{
-        
-        position: absolute;
         display: flex;
         justify-content: flex-start;
         align-items: flex-end;
-        flex-direction: row;
-        width:24.3vw;
-        height: 27.5vh;
         list-style: none;
-        padding: 0 1.0rem;
     }
     
     .cartao ul li{
-        padding: 0 0.2rem 0 0.3rem;
-    
+        padding: 0 0.2rem 0 0.1rem;
+        
     }
     
     .btn-continua{
@@ -398,9 +411,9 @@ body{
         display: flex;
         justify-content: flex-end;
         align-items: flex-end;
-        width: 29vw;
-        height: 28vh;
-        
+        width: 27.9vw;
+        height: 0vh;
+        margin-top: 31.8rem;
     }
     .btn-continua button{
         background-color: #ED8C1A;
