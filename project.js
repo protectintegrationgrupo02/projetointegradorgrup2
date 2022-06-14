@@ -37,3 +37,6 @@ function openModal(mn){
       
          modal01.style.display = 'none';
   }
+
+  //carrosssel//
+ 

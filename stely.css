@@ -526,3 +526,10 @@ body{
 .container{
 margin-top: 0.1rem;
 }
+
+.box-filme{
+    
+    height: 89vh;
+    width: 60vw;
+    display: block;
+}
