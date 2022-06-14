@@ -10,7 +10,7 @@
 }
 
 body{
-    background: linear-gradient( rgba(255, 255, 255, 0.45), rgba(255, 255, 255, 0.45)), url('imag/background.png');
+    background: linear-gradient( rgba(0,0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('imag/background.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
@@ -21,7 +21,7 @@ body{
 /*INICIO DO MENU*/
 .header {
     box-sizing: border-box;
-    height: 80px;
+    height: 83px;
     padding: 1rem;
     display: flex;
     align-items: center;
@@ -50,10 +50,11 @@ body{
 
   #cadastro{
     background-color: transparent;
-    padding: 5px 10px 5px 10px;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
     border: 2px solid  white;
     cursor: pointer;
-    transition: background .3s;
+    
     border-radius: 5px;
     color: white;
     font-size: 1.5rem;
@@ -64,20 +65,21 @@ body{
 }
 
 #entrar{
+    margin-top: 1rem;
     background-color: #ED8C1A;
     color: black;
     padding: 0.5rem 2rem 0.5rem 2rem;
     border: 2px solid none;
     cursor: pointer;
-    transition: background .3s;
+   
     border-radius: 10px;
-
+   
     font-size: 1.5rem;
   }
  #entrar:hover{
     background-color: rgba(0,0,0,.4);
     color: #ED8C1A;
-    
+ 
     
 }
 #entrar:active{
@@ -86,12 +88,7 @@ body{
    
 }
 /*CARROSSEL*/
-.box-filme{
-    height: 89.6vh;
-     height: 89.6vh;
-    display: block;
-    
-}
+
 /*MODAL CADASTRO*/
 .modal{
     background-color: rgba(0, 0, 0, .8);
@@ -109,8 +106,8 @@ body{
     margin: 0 auto;
     margin-top: 5%;
     width: 30vw ;
-    height: 80vh;
-   background-image: url("imag/fund02.jpg");
+    height: 82vh;
+   background-image: url("imag/login.jpg");
    background-repeat: no-repeat;
    background-size: cover;
     padding: 0;
@@ -524,4 +521,8 @@ body{
 .btn-entrar button:active{
     background-color: white;
     color: #ED8C1A;  
+}
+
+.container{
+margin-top: 0.1rem;
 }
