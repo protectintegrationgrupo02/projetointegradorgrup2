@@ -85,6 +85,13 @@ body{
     color: #ED8C1A; 
    
 }
+/*CARROSSEL*/
+.box-filme{
+    height: 89.6vh;
+     height: 89.6vh;
+    display: block;
+    
+}
 /*MODAL CADASTRO*/
 .modal{
     background-color: rgba(0, 0, 0, .8);
@@ -94,6 +101,7 @@ body{
     width: 100vw;
     height: 100vh;
     display: none;
+    z-index: 1;
 
 }
 
@@ -242,7 +250,7 @@ body{
 }
 
 .senha01{
-    background-color: coral;
+   
     position: absolute;
     display: flex;
     justify-content: flex-start;
@@ -342,6 +350,7 @@ body{
     width: 100vw;
     height: 100vh;
     display: none;
+    z-index: 1;
 
 }
 
