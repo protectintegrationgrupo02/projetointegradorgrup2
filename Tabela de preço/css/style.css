@@ -1,15 +1,26 @@
 .demo
 {
 	padding: 100px 0;
-    background-color: #191c24;
+    background: linear-gradient( rgba(0,0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .heading-title
 {
 	margin-bottom: 100px;
     color: white;
+    margin-bottom: 2rem;
+    margin-top: -5rem;
 }
-
-.pricingTable{
+.bx.bxs-share
+{
+    position: absolute;
+    margin-top: -4.9rem;
+    margin-left: -16rem;
+    font-size: 3.8rem;
+    color: white;
+}.pricingTable{
+    background: linear-gradient( rgba(0,0, 0, 0.6), rgba(0, 0, 0, 0.6));
     border: 2px solid #e3e3e3;
     text-align: center;
     position: relative;

@@ -240,6 +240,7 @@ body{
     border: none;
     outline: none;
     border-radius: 25rem;
+    
 }
 .email input::placeholder{
     color: black;
@@ -450,7 +451,7 @@ body{
 
 }
 
-#label{
+#label a{
     color: #ED8C1A;
     display: flex;
     justify-content: flex-start;
@@ -494,8 +495,8 @@ body{
     justify-content: flex-end;
     align-items: flex-end;
     margin-right: -16rem;
-
-    height: 63vh;
+ margin-top: -1.5rem;
+    height: 60vh;
     
 }
 .btn-entrar a button{
@@ -533,3 +534,196 @@ margin-top: 0.1rem;
     width: 60vw;
     display: block;
 }
+
+/*modal02*/
+
+.modal01{
+    background-color: rgba(0, 0, 0, .8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    z-index: 1;
+
+}
+
+.modal01-content{
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 30vw ;
+    height: 82vh;
+   background-image: url("imag/login.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+    padding: 0;
+    box-shadow: 0 0 2px white ;
+   
+}
+
+.modal01-header, .modal01-body {
+    padding: 10px;
+}
+
+.modal01-header {
+   
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    height: 12vh;
+    
+}
+
+.modal01-header button{
+   
+    font-size: 1.5rem;
+    background: transparent;
+    color: white;
+    border: none;
+    font-weight: bold;
+    float: right;
+    
+}
+.modal01-body{
+   
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    height: 70vh;
+}
+ .modal01-body p{
+     
+    position: absolute;
+    color: white;
+    font-weight: none;
+    font-size: 2.5rem;
+}
+
+.nome01{
+    position:absolute;
+ 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 25vw;
+   margin-top: 3rem;
+    padding: 2.6rem 2rem;
+    z-index: 2;
+}
+.nome01 input{
+    width: 30vw;
+    height: 6vh;
+    border-radius: 25rem;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.nome01  input::placeholder{
+    color: black;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+.senha03{
+    
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 12rem;
+    float: left;
+    z-index: 1;
+    
+}
+.senha03 input{
+    width: 22vw;
+    height: 6vh;
+    font-size: 1.5rem;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 25rem;
+}
+.senha03 input::placeholder{
+    color: black;
+
+}
+
+#label{
+    position: absolute;
+    color: #ED8C1A;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 20vw;
+    margin-left: 1.5rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.ou {
+    position: absolute;
+    
+   margin-right: 2rem;
+   margin-top: -1rem;
+   z-index: 0; 
+    color: white;
+    font-size: 2rem;
+}
+
+
+.rede-social ul{
+        
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: row;
+    width:20vw;
+    
+    list-style: none;
+    padding: 0 1.0rem;
+    margin-left: -11rem;
+}
+
+.rede-social ul li{
+    padding: 0 3.5rem 0 3.5rem;
+
+}
+.btn-entrar{
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: -16rem;
+margin-top: -rem;
+    height: 69vh;
+    
+}
+.btn-entrar a button{
+    background-color: #ED8C1A;
+    padding: 0.5rem 4rem 0.5rem 4rem;
+    border: 2px solid  transparent;
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-radius: 25rem;
+    
+}
+.btn-entrar button:hover{
+    background-color: black;
+    color: #ED8C1A;
+    font-weight: bold;
+    
+}
+
+.btn-entrar button:active{
+    background-color: white;
+    color: #ED8C1A;  
+}
+

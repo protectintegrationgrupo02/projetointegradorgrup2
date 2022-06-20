@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container-cadastreadm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 28vw;
+    height: 45vh;
+    background-color:#191c24 ;
+    border-radius: 1rem;
+}
+.adm-titulo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.adm-titulo h2{
+    margin-top: -8.5rem;
+    color: white;
+}
+.nome-empresar{
+    position:absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    margin-top: -8rem;
+}
+.nome-empresar input{
+    width: 18vw;
+    height: 3.5vh;
+    border-radius: 25rem;
+    border: none;
+    outline: none;
+    padding: 0 0 0 1rem;
+    color: #191c24;
+    font-size: 1rem;
+    font-weight: bold;
+    
+}
+.nome-empresar input::placeholder{
+    color: #191c24;
+}
+.cnpjs{
+    position:absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    margin-top: -3.5em;
+}
+
+.cnpjs input{
+    width: 18vw;
+    height: 3.5vh;
+    border-radius: 25rem;
+    border: none;
+    outline: none;
+    padding: 0 0 0 1rem;
+    color: #191c24;
+    font-size: 1rem;
+    font-weight: bold; 
+}
+.cnpjs input::placeholder{
+    color: #191c24;
+}
+
+.endereco{
+    position:absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    margin-top: 1rem;
+}
+.endereco input{
+    width: 18vw;
+    height: 3.5vh;
+    border-radius: 25rem;
+    border: none;
+    outline: none;
+    padding: 0 0 0 1rem;
+    color: #191c24;
+    font-size: 1rem;
+    font-weight: bold;
+    
+}
+.endereco input::placeholder{
+    color: #191c24;
+}
+.numeros{
+    position:absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-end;
+    margin-top: 5.5rem;
+    padding: 0 15rem 0 1rem;
+}
+.numeros input{
+    width: 5vw;
+    height: 3.5vh;
+    border-radius: 25rem;
+    border: none;
+    outline: none;
+    padding: 0 0 0 0.5rem;
+    color: #191c24;
+    font-size: 1rem;
+    font-weight: bold;
+    
+}
+.numeros  input::placeholder{
+    color: #191c24;
+}
+
+.complemento{
+   
+    position:absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    margin-top: 5.5rem;
+    margin-right: -5rem;
+    padding: 0 1rem 0 1.5rem;
+    float:right;
+}
+.complemento input{
+    width: 12.8vw;
+    height: 3.5vh;
+    border-radius: 25rem;
+    border: none;
+    outline: none;
+    padding: 0 0 0 0.5rem;
+    color: #191c24;
+    font-size: 1rem;
+    font-weight: bold;
+    
+}
+.complemento  input::placeholder{
+    color: #191c24;
+}
+
+.bairro{
+   
+    position:absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-end;
+    margin-top: 10rem;
+    margin-right: 8.9rem;
+    padding: 0 3rem 0 1rem;
+    float:right;
+}
+.bairro input{
+    width: 8vw;
+    height: 3.5vh;
+    border-radius: 25rem;
+    border: none;
+    outline: none;
+    padding: 0 0 0 0.7rem;
+    color: #191c24;
+    font-size: 1rem;
+    font-weight: bold;
+    
+}
+.bairro  input::placeholder{
+    color: #191c24;
+}
+
+.cep{
+   
+    position:absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-end;
+    margin-top: 10rem;
+    margin-right: -11rem;
+    padding: 0 3rem 0 1rem;
+    float:right;
+}
+.cep input{
+    width: 9.6vw;
+    height: 3.5vh;
+    border-radius: 25rem;
+    border: none;
+    outline: none;
+    padding: 0 0 0 0.7rem;
+    color: #191c24;
+    font-size: 1rem;
+    font-weight: bold;
+    
+}
+.cep  input::placeholder{
+    color: #191c24;
+}
+
+.btn-prosseguir{
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 18rem;
+    width: 29rem;  
+}
+.btn-prosseguir a button{
+    background-color: #ED8C1A;
+    padding: 0.2rem 2rem 0.2rem 2rem;
+    border: 2px solid  transparent;
+    cursor: pointer;
+    transition: background .3s;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 25rem;   
+}
+.btn-prosseguir button:hover{
+    background-color: black;
+    color: #ED8C1A;
+    font-weight: bold;
+    
+}
+
+

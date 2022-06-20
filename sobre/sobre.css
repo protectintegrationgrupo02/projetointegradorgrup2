@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -10,7 +12,7 @@ a:visited {
     text-decoration: none;
 }
 body{
-    background: linear-gradient( rgba(255, 255, 255, 0.45), rgba(255, 255, 255, 0.45)), url('imags/background.png');
+  background: linear-gradient( rgba(0,0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../imag/background.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
@@ -71,8 +73,10 @@ text-align: justify;
 }
 .conteudo h1{
     font-size: 3rem;
+    color: white;
 }
 
 .conteudo p{
+  color: white;
     font-size: 2rem;
 }

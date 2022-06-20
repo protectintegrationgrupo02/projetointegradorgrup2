@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    width: 100vw;
+    height: 100vh;
+}
+/*CONFIGURAÇÕES / CONTA*/
+.moldal-config{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    width: 31vw;
+    height: 90vh;
+    background-color:#191c24 ;
+}
+.modal-headers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 13vh;
+}
+.modal-headers p{
+ font-size: 1.5rem;
+}
+
+.modal-bodys {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -1rem;
+}
+
+.title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title h2{
+ padding: 0 23rem 0 0;
+}
+.title p{
+    padding: 0 1rem 0 0;
+}
+.info-pessoa{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1rem;
+}
+.info{
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 1rem 10rem 0 0;
+}
+
+.nomes{
+    
+    position:absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    margin-top: 6rem;
+}
+
+.nomes input{
+    width: 20vw;
+    height: 3.5vh;
+    border-radius: 25rem;
+    border: none;
+    outline: none;
+    padding: 0 0 0 1rem;
+    color: #191c24;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: dimgray;
+  
+}
+.nomes input::placeholder{
+    color: #191c24;
+}
+
+.emails{
+    position:absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-end;
+    margin-top: 11rem;
+    
+}
+.emails input{
+    width: 20vw;
+    height: 3.5vh;
+    border-radius: 25rem;
+    border: none;
+    outline: none;
+    padding: 0 0 0 1rem;
+    color: #191c24;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: dimgray;
+    
+    
+}
+.emails input::placeholder{
+    color: #191c24;
+    
+}
+.cel{
+    
+    position:absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-end;
+    margin-top: 15.9rem;
+
+}
+.cel input{
+    width: 10vw;
+    height: 3.5vh;
+    border-radius: 25rem;
+    border: none;
+    outline: none;
+    padding: 0 0 0 1rem;
+    color: #191c24;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: dimgray
+}
+.cel input::placeholder{
+    color: #191c24;
+}
+
+.alter{
+    text-decoration: none;
+    padding: 0 0 0.2rem 0.8rem;
+}
+.alter p{
+    color: blue;
+}
+/*CONFIGURAÇÕES / CONTA - FIM  */
+
+
+.empresa{
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-top: 21rem;
+}
+.empresa h3{
+    padding: 1rem -15rem 0 0;
+}
+.empre{
+   position: absolute;
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-end;
+   margin-top: 10.5rem;
+   padding: 15rem 0 0 0 ;
+}
+.empre input{
+    width: 20vw;
+    height: 3.5vh;
+    border-radius: 25rem;
+    border: none;
+    outline: none;
+    padding: 0 0 0 1rem;
+    color: #191c24;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: dimgray;
+}
+.empre input::placeholder{
+    color: #191c24;
+}
+
+.cnpj{
+    position:absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-end;
+    margin-top: 30.3rem;
+}
+.cnpj input{
+    width: 11vw;
+    height: 3.5vh;
+    border-radius: 25rem;
+    border: none;
+    outline: none;
+    padding: 0 0 0 1rem;
+    color: #191c24;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: dimgray
+}
+.cnpj input::placeholder{
+    color: #191c24;
+}
+.btn-salvar{
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 35rem;
+    width: 29rem;  
+}
+.btn-salvar a button{
+    background-color: #ED8C1A;
+    padding: 0.2rem 2rem 0.2rem 2rem;
+    border: 2px solid  transparent;
+    cursor: pointer;
+    transition: background .3s;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 25rem;
+    
+}
+.btn-salvar button:hover{
+    background-color: black;
+    color: #ED8C1A;
+    font-weight: bold;
+    
+}
+
+.btn-salvar button:active{
+    background-color: white;
+    color: #ED8C1A;  
+}
+.senha{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;  
+}
+.senha h3{
+    width: 26.5vw;
+    margin-top: 17rem;
+}
+.legen{
+    position: absolute;
+    width: 26.9vw;
+    margin-top: 26.3rem;
+}
+
+.atual{
+    position: absolute;
+    width: 27vw;
+    margin-top: 30rem;
+}
+.atual input{
+    width: 11vw;
+    height: 3.5vh;
+    border-radius: 25rem;
+    border: none;
+    outline: none;
+    padding: 0 0 0 1rem;
+    color: #191c24;
+    font-size: 1rem;
+    font-weight: bold;  
+}
+.atual input::placeholder{
+    color: #191c24;
+}
+.nova{
+    position: absolute;
+    width: 27vw;
+    margin-top: 34.5rem;
+}
+.nova input{
+    width: 11vw;
+    height: 3.5vh;
+    border-radius: 25rem;
+    border: none;
+    outline: none;
+    padding: 0 0 0 1rem;
+    color: #191c24;
+    font-size: 1rem;
+    font-weight: bold;  
+}
+.nova input::placeholder{
+    color: #191c24;
+}
+.conf{
+    position: absolute;
+    width: 27vw;
+    margin-top: 39rem;
+}
+.conf input{
+    width: 11vw;
+    height: 3.5vh;
+    border-radius: 25rem;
+    border: none;
+    outline: none;
+    padding: 0 0 0 1rem;
+    color: #191c24;
+    font-size: 1rem;
+    font-weight: bold;  
+}
+.conf input::placeholder{
+    color: #191c24;
+}
+
+.btn-atualiza{
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 45rem;
+    width:18vw ;
+}
+.btn-atualiza a button{
+    background-color: #ED8C1A;
+    padding: 0.2rem 1rem 0.2rem 1rem;
+    border: 2px solid  transparent;
+    cursor: pointer;
+    transition: background .3s;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 25rem;
+    
+}
+.btn-atualiza button:hover{
+    background-color: black;
+    color: #ED8C1A;
+    font-weight: bold;
+    
+}
+
+.btn-atualiza button:active{
+    background-color: white;
+    color: #ED8C1A;  
+}
+.btn-cancelar{
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 45rem;
+    width: 29vw;;
+}
+.btn-cancelar a button{
+    background-color: cornflowerblue;
+    padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+    border: 2px solid  transparent;
+    cursor: pointer;
+    transition: background .3s;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 25rem;
+    
+}
+.btn-cancelar button:hover{
+    background-color: black;
+    color: cornflowerblue;
+    font-weight: bold;
+    
+}
+
+.btn-cancelar button:active{
+    background-color: white;
+    color: cornflowerblue;  
+}
+
+
