@@ -204,7 +204,7 @@ body{
 
       /* modal */
       .modal{
-        background-color: rgba(0, 0, 0, .8);
+        background-color: rgba(0, 0, 0, .6);
         position: fixed;
         top: 0;
         left: 0;
@@ -219,9 +219,9 @@ body{
         margin-top: 5%;
         width: 30vw ;
         height: 80vh;
-       background-image: url("imag/cader.jpg");
+       
         padding: 0;
-        box-shadow: 0 0 2px white ;
+        box-shadow: 0 0 2px black ;
        
     }
     
@@ -289,10 +289,14 @@ body{
         margin-top: 6rem;
         height: 0vh; 
         z-index: 3;  
-    }  
+        
+    } 
+
     .dat input{
-        border: none;
-        outline: none;
+      background-color: transparent;
+      border: 0.5px solid  black;
+      color: black;
+      filter: invert(1);
         width: 20vw;
         height: 5vh;
         border-radius: 15px;
@@ -300,25 +304,54 @@ body{
         text-align: center;
         padding: 0 1rem;   
     }
+   .times{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    margin-top: 10rem;
+    height: 0vh; 
+    z-index: 3; 
+   }
+   .times input{
+    background-color: transparent;
+    border: 0.5px solid black;
+    color: black;
+    filter: invert(1);
+      width: 20vw;
+      height: 5vh;
+      border-radius: 15px;
+      font-size: 1.5rem; 
+      text-align: center;
+      padding: 0 -3rem;   
+  }
+    #cor{
+      color: black;
+      text-align: center;
+    }
     .funcionario{
         display: flex;
         justify-content: flex-start;
         align-items: flex-end;
-        width: 26vw;
+        width: 20vw;
         height: 0vh;
-        margin-top: 13rem;
+        margin-top: 19.5rem;
+        color: black;
         
     }
     
     .funcionario #funcionario{
-      width: 12.8vw;
+      width: 20vw;
       height: 5vh;
-        border: none;
-        outline: none;
-        font-size: 1.3rem;
-        text-align: center;
-        border-radius: 15rem;
-        padding: 0 1rem 0 1rem;
+      background-color: transparent;
+      border: 0.5px solid white;
+      color: white;
+      outline: none;
+      font-size: 1.3rem;
+      text-align: center;
+      border-radius: 15rem;
+      padding: 0 1rem 0 1rem;
     } 
     .servico{
       
@@ -326,20 +359,23 @@ body{
         display: flex;
         justify-content: flex-end;
         align-items: flex-end;
-        width: 26vw;
-        height: 0vh;
+        width: 20vw;
+       
         margin-top: 13rem;
+        color: black;
         
     }
     .servico #servico{
-      width: 12.8vw;
+      width: 20vw;
       height: 5vh;
-        border: none;
+      background-color: transparent;
+      border: 2px solid white;
+      color: white;
         outline: none;
         font-size: 1.3rem;
         text-align: center;
         border-radius: 15rem;
-        padding: 0 1rem 0 2rem;
+        padding: 0 1rem 0 0.8rem;
     } 
     
     .form-pague{
@@ -350,14 +386,17 @@ body{
         align-items: flex-end;
         width: 30vw;
         height: 0vh;
-        margin-top: 20rem;
+        margin-top: 25rem;
         z-index: 1;
+        
         
     }
     .form-pague #form-pague{
         width: 20vw;
         height: 5vh;
-        border: none;
+        background-color: transparent;
+        border: 2px solid white;
+        color: white;
         outline: none;
         font-size: 1.5rem;
         text-align: center;
@@ -367,10 +406,8 @@ body{
     } 
     
     .form{
-      
       width: 30vw;
-      height: 0vh;
-      margin-top: 17.4rem;
+      margin-top: 20rem;
         position: absolute;
         display: flex;
         justify-content: center;
@@ -378,33 +415,11 @@ body{
         font-size: 1.5rem;
         font-weight: none;
         color: white;
-        padding: 0 -1rem;
-    
-    }
-    .cartao {
-     
-      position: absolute;
-      display: flex;
-      justify-content: flex-start;
-      align-items: flex-end;
-      float: left;
-      width: 28vw;
-      height: 0vh;
-      margin-top: 32rem;
-      list-style: none;
-      padding: 0 -2rem 0 ;
-  }
-    .cartao ul{
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-end;
-        list-style: none;
-    }
-    
-    .cartao ul li{
-        padding: 0 0.2rem 0 0.1rem;
+       margin-left: 1rem;
         
+    
     }
+    
     
     .btn-continua{
         position: absolute;

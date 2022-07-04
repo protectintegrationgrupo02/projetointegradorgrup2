@@ -172,6 +172,13 @@
     border-left-color: #08c6aa;
 }
 
+#bus{
+    margin-bottom: 7rem;
+}
+.feedback{
+    margin-bottom: 11rem;
+}
+
 @media screen and (max-width: 990px){
     .pricingTable{ margin-bottom: 25px; }
 }

@@ -68,22 +68,24 @@
 
 
         <div class="dat">
-                <input type="datetime-local" name="data" id="data"  >
+                <input type="date" name="data" id="data"  >
         </div>
-
+        <div class="times">
+          <input type="time" name="data" id="data"  >
+  </div>
     <div class="servico">
     <select id="servico" name="servico">
-                   <option>Serviço</option>
-       <option value="corte">Corte</option>
-      <option value="escova">Escova</option>
+                   <option id="cor">Serviço</option>
+       <option value="corte" id="cor">Corte</option>
+      <option value="escova" id="cor">Escova</option>
    </select>
    </div>
        
    <div class="funcionario">
     <select id="funcionario" name="funcionario">
-                   <option>Funcionário</option>
-         <option value="felipe">Felipe Dias </option>
-         <option value="clecio">Clécio</option>
+                   <option id="cor">Funcionário</option>
+         <option value="felipe" id="cor">Felipe Dias </option>
+         <option value="clecio" id="cor">Clécio</option>
    </select>
     </div>
 
@@ -92,21 +94,21 @@
 <div class="form-pague">
         
     <select id="form-pague" name="form-pague">
-                   <option>Selecione</option>
-         <option value="visa">Cartão de Crédito</option>
-         <option value="mastercard">Cartão de Débito</option>
-         <option value="hipercard">Pix</option>
-         <option value="pix">Paypal</option>
+                   <option id="cor">Selecione</option>
+         <option value="visa" id="cor">Cartão de Crédito</option>
+         <option value="mastercard" id="cor">Cartão de Débito</option>
+         <option value="hipercard" id="cor">Pix</option>
+         
    </select>
     </div>
-    <div class="cartao">
+   <!--- <div class="cartao">
         <ul>
             <li><img src="imag/Visa.png" ></li>
             <li><img src="imag/MasterCard.png" ></li>
             <li><img src="imag/Maestro.png" ></li>
             <li><img src="imag/Paypal-Payment_Icon.png" ></li>
         </ul>
-    </div>
+    </div>-->
     <div class="btn-continua">
     <button  id="continua" >Continuar</button>
 </div>
