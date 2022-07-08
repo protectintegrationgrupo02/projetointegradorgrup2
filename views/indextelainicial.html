@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/CSS/stelytelainicial.css">
+    <link rel="preload" href="../public/CSS/stelytelainicial.css">
+    <link rel="stylesheet" href="carrossel/owl.carousel.min.css">
+    <link rel="stylesheet" href="carrossel/owl.theme.default.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"  rel="stylesheet">
+   
+    <title>Barbearia</title>
+</head>
+<body>
+    <header class="header" >
+        <a id="logo" href="">Logo</a>
+        <nav class="nav">
+          <ul class="menu" role="menu">
+            <li><a  href="#"> <button id="cadastro"  onclick="openModal('dv-modal')">Cadastre-se</button></a></li>
+            <li><a href="#"> <button id="entrar"  onclick="openModal01('dv-modal01')">Entrar</button></a></li>      
+          </ul>
+        </nav>
+      </header>
+      <div data-slide="slide" class="slide">
+        <div class="slide-items">
+          <img src="../public/imag/barb456.jpg" alt="Img 1">
+          <img src="../public/imag/barb123.jpg" alt="Img 2">
+          <img src="../public/imag/barba147.jpg" alt="Img 3">
+          <img src="../public/imag/barb789.jpg" alt="Img 4">
+        </div>
+        <nav class="slide-nav">
+          <div class="slide-thumb"></div>
+          <button class="slide-prev">Anterior</button>
+          <button class="slide-next">Próximo</button>
+        </nav>
+      </div>
+      <div data-slide="slide1" class="slide1">
+        <div class="slide-items1">
+          <img src="../public/imag/fund05.jpg" alt="Img 1">
+          <img src="../public/imag/barb4545.jpg" alt="Img 2">
+          <img src="../public/imag/fund08.jpg" alt="Img 3">
+          <img src="../public/imag/imagenserv.jpeg" alt="Img 4">
+        </div>
+        <nav class="slide-nav1">
+          <div class="slide-thumb1"></div>
+          <button class="slide-prev1">Anterior</button>
+          <button class="slide-next1">Próximo</button>
+        </nav>
+      </div>
+      
+        </div>
+          </div>
+      <div id="dv-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+              <button   onclick="closeModal('dv-modal')">X</button>
+            </div>
+            <div class="modal-body">
+          <p class="crie-conta">Crie sua Conta</p>
+           <div class="nome">
+                <input  type="text" placeholder="Nome completo"required>            
+            </div>
+            <div class="celular">   
+                    
+                    <input class="telefone" type="tel" name="celular" placeholder="Seu Celular"required>
+                </div>
+               <div class="cpf">
+                    
+                    <input  type="CPF" placeholder="Seu CPF" required>
+                </div>             
+            
+             <div class="email">
+                <input  type="email"  placeholder="E-mail"  required>      
+            </div>
+           <div class="senha01"> 
+                   
+                    <input placeholder="Senha"   type="password" required>
+           </div>
+                <div class="senha02">
+                    <input placeholder="Confirmar Senha"  type="password" required>            
+            </div>
+
+            <div class="btn-enviar">
+              <a href="#"> <button>Enviar</button></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      
+      <div id="dv-modal01" class="modal01">
+        <div class="modal01-content">
+            <div class="modal01-header">
+              <button   onclick="closeModal01('dv-modal01')">X</button>
+            </div>
+            <div class="modal01-body">
+          <p class="crie-conta">Login</p>
+           <div class="nome01">
+                <input  type="text" placeholder="E-mail ou Usuário"required>            
+            </div>
+         
+           <div class="senha03"> 
+                   
+                    <input placeholder="Senha"   type="password" required>
+           </div>
+           <label id="label" for="esquecer"  ><a href="recuperasenha.html" >  Esqueci a senha</a></label>
+                <div class="ou">       
+               <p>ou</p>
+               </div>
+               <div class="rede-social">
+                <ul>
+                    <li><img src="../public/imag/icons8-instagram-64.png" ></li>
+                    <li><img src="../public/imag/google-icon-4.png" ></li>
+                 
+                </ul>
+            </div>
+
+            <div class="btn-entrar">
+              <a href="agenda.html"> <button>Entrar</button></a>
+            </div>
+          </div>
+
+         
+      </div>
+      <Script src="../public/JS/projectelainicial.js"></Script>
+      <Script src="../public/JS/carrossels.js"></Script>
+  
+</body>
+</html>

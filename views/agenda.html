@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="../public/CSS/stelyagenda.css">
+    <link rel="stylesheet" href="../public/CSS/stelyagenda.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link   rel="stylesheet"   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    
+    <title>Agenda</title>
+</head>
+<body >
+    <header id="header" >
+        <a id="logo" href="">Logo</a>
+        <nav id="nav">
+       
+          <ul id="menu" role="menu">
+            <li><a  href="indextelainicial.html">Home</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="agenda.html">Agenda</a></li>
+            <li><a href="Servico.html">Serviços</a></li>
+            <li><a href="planos.html">Plano Parceria</a></li>
+            <a class="#" aria-label="" href="#" role="button" 
+            tabindex="0" aria-expanded="false"><img class="gb_Ba gbii"
+             src="https://lh3.googleusercontent.com/ogw/ADea4I4Lh5Vf1N5DDGN0UaTJ9piHL2j-463P0xkbVAqMRLc=s32-c-mo"
+             srcset="" alt="" aria-hidden="true" data-noaft=""></a>
+          </ul>
+        </nav>
+      </header>
+      <div class="container">
+        <div class="calendario">
+          <div class="month">
+            <i class="fas fa-angle-left prev"></i>
+            <div class="date">
+              <h1></h1>
+              <p></p>
+            </div>
+            <i class="fas fa-angle-right next"></i>
+          </div>
+          <div class="weekdays">
+            
+            <div>Dom</div>
+            <div onclick="openModal('dv-modal')" >Seg</div>
+            <div>Ter</div>
+            <div>Qua</div>
+            <div>Qui</div>
+            <div>Sex</div>
+            <div>Sab</div>
+      
+          </div>
+          <div class="days"></div>
+        </div>
+      </div>
+<!--modal-->
+<div id="dv-modal" class="modal">
+  <div class="modal-content">
+      <div class="modal-header">
+        <button   onclick="closeModal('dv-modal')">X</button>
+        
+      </div>
+      <div class="modal-body">
+        <div class="textbox">
+                   <label class="name" for="name">Usuário</label>
+        <!--    <input type="text"  name="name" id="name" placeholder="Adicione seu nome" />-->
+        </div>
+
+
+        <div class="dat">
+                <input type="date" name="data" id="data"  >
+        </div>
+        <div class="times">
+          <input type="time" name="data" id="data"  >
+  </div>
+    <div class="servico">
+    <select id="servico" name="servico">
+                   <option id="cor">Serviço</option>
+       <option value="corte" id="cor">Corte</option>
+      <option value="escova" id="cor">Escova</option>
+   </select>
+   </div>
+       
+   <div class="funcionario">
+    <select id="funcionario" name="funcionario">
+                   <option id="cor">Funcionário</option>
+         <option value="felipe" id="cor">Felipe Dias </option>
+         <option value="clecio" id="cor">Clécio</option>
+   </select>
+    </div>
+
+
+  <label class="form">Forma de pagamento</label>
+<div class="form-pague">
+        
+    <select id="form-pague" name="form-pague">
+                   <option id="cor">Selecione</option>
+         <option value="visa" id="cor">Cartão de Crédito</option>
+         <option value="mastercard" id="cor">Cartão de Débito</option>
+         <option value="hipercard" id="cor">Pix</option>
+         
+   </select>
+    </div>
+   <!--- <div class="cartao">
+        <ul>
+            <li><img src="imag/Visa.png" ></li>
+            <li><img src="imag/MasterCard.png" ></li>
+            <li><img src="imag/Maestro.png" ></li>
+            <li><img src="imag/Paypal-Payment_Icon.png" ></li>
+        </ul>
+    </div>-->
+    <div class="btn-continua">
+    <button  id="continua" >Agendar</button>
+</div>
+</div>
+</div>
+
+</div>   
+
+
+
+
+
+
+     
+      <Script src="../public/JS/agenda.js"></Script>
+</body>
+</html>
