@@ -21,20 +21,22 @@
     z-index: -1;
     
 }
-#logo{
-    color: white;
-}
 #header {
     box-sizing: border-box;
-    height: 80px;
+    height: 70px;
     padding: 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6) );
     font-family: 'Open Sans';
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
+  #logo{
+    color: white;
+    padding: 0 1.2rem 0 0;
+
+}
   
   #menu {
     display: flex;
@@ -71,39 +73,22 @@
     display: flex;
     padding: 50px;
     justify-content: center;
-    margin-top: 120px;
+    margin-top: 1rem;
     font-family: 'Montserrat', sans-serif;
 }
-.barba {
-    width: 300px;
-    height: 400px;
-    background-color: rgba(0, 0, 0, 0.719);
-    justify-content: center;
-    align-items: center;
-    color: white;
-    border-radius: 20px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    text-align: center;
-    margin: 0px 20px;
-    padding: 20px 0px;
-
-}
-
 .cabelo {
-    width: 300px;
-    height: 400px;
+    width: 22vw;
+    height: 62vh;
     background-color: rgba(0, 0, 0, 0.719);
     justify-content: center;
     align-items: center;
     color: white;
     border-radius: 20px;
     font-family: 'Open Sans';
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 400;
     text-align: center;
-    margin: 0px 20px;
+    margin: 0 1rem;
     padding: 20px 0px;
     font-family: 'Montserrat', sans-serif;
 }
@@ -111,8 +96,26 @@
     margin-bottom: 3rem;
 }
 .cabelo, .barba h2,h3{
-    margin-top: 0.5rem;
+    margin-top: 0.2rem;
 }
+.barba {
+    width: 22vw;
+    height: 62vh;
+    background-color: rgba(0, 0, 0, 0.719);
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 1rem;
+    padding: 20px 0px;
+
+}
+
+
 
 .barba h1{
     margin-bottom: 4rem;
@@ -126,17 +129,17 @@
 }
 
 .sobrancelha {
-    width: 300px;
-    height: 400px;
+    width: 22vw;
+    height: 62vh;
     background-color: rgba(0, 0, 0, 0.719);
     justify-content: center;
     align-items: center;
     color: white;
     border-radius: 20px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 400;
     text-align: center;
-    margin: 0px 20px;
+    margin: 0 1rem;
     padding: 20px 0px;
 }

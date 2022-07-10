@@ -33,7 +33,7 @@ body{
     align-items: flex-start;
 }
 .adm-titulo h2{
-    margin-top: -8.5rem;
+    margin-top: -8rem;
     color: white;
 }
 .nome-empresar{
@@ -41,7 +41,7 @@ body{
     display: flex;
     justify-content: flex-end;
     align-items:flex-end;
-    margin-top: -8rem;
+    margin-top: -9rem;
 }
 .nome-empresar input{
     width: 18vw;
@@ -63,7 +63,7 @@ body{
     display: flex;
     justify-content: flex-end;
     align-items:flex-end;
-    margin-top: -3.5em;
+    margin-top: -5rem;
 }
 
 .cnpjs input{
@@ -86,7 +86,7 @@ body{
     display: flex;
     justify-content: flex-end;
     align-items:flex-end;
-    margin-top: 1rem;
+    margin-top: -1rem;
 }
 .endereco input{
     width: 18vw;
@@ -108,8 +108,8 @@ body{
     display: flex;
     justify-content: flex-start;
     align-items:flex-end;
-    margin-top: 5.5rem;
-    padding: 0 15rem 0 1rem;
+    margin-top: 3rem;
+    padding: 0 12rem 0 1rem;
 }
 .numeros input{
     width: 5vw;
@@ -133,9 +133,9 @@ body{
     display: flex;
     justify-content: flex-end;
     align-items:flex-end;
-    margin-top: 5.5rem;
+    margin-top: 3rem;
     margin-right: -5rem;
-    padding: 0 1rem 0 1.5rem;
+    padding: 0 2rem 0 1.5rem;
     float:right;
 }
 .complemento input{
@@ -160,9 +160,9 @@ body{
     display: flex;
     justify-content: flex-start;
     align-items:flex-end;
-    margin-top: 10rem;
+    margin-top: 6.8rem;
     margin-right: 8.9rem;
-    padding: 0 3rem 0 1rem;
+    padding: 0 1rem 0 1rem;
     float:right;
 }
 .bairro input{
@@ -187,9 +187,9 @@ body{
     display: flex;
     justify-content: flex-start;
     align-items:flex-end;
-    margin-top: 10rem;
+    margin-top: 6.8rem;
     margin-right: -11rem;
-    padding: 0 3rem 0 1rem;
+    padding: 0 5rem 0 1rem;
     float:right;
 }
 .cep input{
@@ -213,8 +213,9 @@ body{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    margin-top: 18rem;
+    margin-top: 14rem;
     width: 29rem;  
+    margin-right: 7rem;
 }
 .btn-prosseguir a button{
     background-color: #ED8C1A;

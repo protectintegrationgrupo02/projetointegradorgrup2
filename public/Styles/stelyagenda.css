@@ -23,16 +23,20 @@ body{
 /*INICIO DO MENU*/
 #header {
     box-sizing: border-box;
-    height: 80px;
+    height: 70px;
     padding: 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6) );
     font-family: 'Open Sans';
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
-  
+  #logo{
+    color: white;
+    padding: 0 1.2rem 0 0;
+
+}
   #menu {
     display: flex;
     list-style: none;
@@ -43,6 +47,7 @@ body{
     font-family: 'Open Sans';
     display: block;
     padding: 0.8rem;
+
   }
   
   #btn-mobile {
@@ -96,26 +101,29 @@ body{
         color: #ED8C1A;  
     }
       .calendario {
+        
         font-size: 1.5rem;
         width: 100vw;                                  
-        height: 725px;
+        height: 52px;
         
        
       }
       
       .month {
+      
         width: 100%;
         height: 3.8rem;
         
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 2.5rem 10rem 2.2rem 15rem;
+        padding: 2.5rem 15rem 2.2rem 15rem;
         text-align: center;
         
       }
       
       .month i {
+        
         font-size: 2rem;
         cursor: pointer;
         color: white;
@@ -133,38 +141,42 @@ body{
       }
       
       .month p {
-        font-size: 1.4rem;
+        font-size: 1rem;
         font-family: 'Open Sans';
         color: white;
       }
       
       .weekdays {
+        
         width: 100%;
-        height: 2.5rem;
-        padding: 0 0.6rem -0.8rem 0.2rem;
+        height: 6vh;
+        padding: 0 0.1rem 0.2rem 1.4rem;
        
         display: flex;
         align-items: flex-start;
-        justify-content: space-evenly;
+        justify-content: space-between;
         
         
       }
       
       .weekdays div {
+        
         font-size: 1.5rem;
-        font-weight: 50;
+        font-weight: 45;
         background-color: transparent;
         width: calc(105rem / 7);
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 0 2rem 0.2rem 0.5rem;
+        padding: 0 2rem 0.4rem 0.5rem;
         color: white;
         
       }
       
       .days {
-        width: 99%;
+        
+        width: 100%;
+      
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
@@ -174,14 +186,15 @@ body{
       }
       
       .days div {
+       
         font-size: 1.5rem;
-       font-weight:70 ;
-        width: calc(104rem /7);
-        height: 5.3rem;
+       font-weight:40 ;
+        width: calc(80rem /7);
+        height: 4.5rem;
         display: flex;
         justify-content: center;
         align-items: center;
-      padding: 0 0 -3rem 0;
+      padding: 0 0 -4rem 0;
         transition: background-color 0.2s;
         color: white;
         
@@ -219,7 +232,7 @@ body{
         margin-top: 5%;
         width: 30vw ;
         height: 80vh;
-       
+        margin-top: 7%;
         padding: 0;
         box-shadow: 0 0 2px black ;
        
@@ -246,7 +259,7 @@ body{
     
     .modal-header button{
        
-        font-size: 1.5rem;
+        font-size: 1rem;
         background: transparent;
         color: white;
         border: none;
@@ -270,7 +283,7 @@ body{
         background-color: transparent;
         border-radius: 20px;
         font-size: 2rem;
-        height: 5vh;
+        margin-top: -3rem;
        text-align: center;
        padding: 0 3rem;
        border: none;
@@ -286,7 +299,7 @@ body{
         justify-content: center;
         align-items: center;
         width: 25vw;
-        margin-top: 6rem;
+        margin-top: 2rem;
         height: 0vh; 
         z-index: 3;  
         
@@ -300,7 +313,7 @@ body{
         width: 20vw;
         height: 5vh;
         border-radius: 15px;
-        font-size: 1.5rem; 
+        font-size: 1.3rem; 
         text-align: center;
         padding: 0 1rem;   
     }
@@ -310,7 +323,7 @@ body{
     justify-content: center;
     align-items: center;
     width: 25vw;
-    margin-top: 10rem;
+    margin-top: 5rem;
     height: 0vh; 
     z-index: 3; 
    }
@@ -322,7 +335,7 @@ body{
       width: 20vw;
       height: 5vh;
       border-radius: 15px;
-      font-size: 1.5rem; 
+      font-size: 1.3rem; 
       text-align: center;
       padding: 0 -3rem;   
   }
@@ -330,29 +343,7 @@ body{
       color: black;
       text-align: center;
     }
-    .funcionario{
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-end;
-        width: 20vw;
-        height: 0vh;
-        margin-top: 19.5rem;
-        color: black;
-        
-    }
-    
-    .funcionario #funcionario{
-      width: 20vw;
-      height: 5vh;
-      background-color: transparent;
-      border: 0.5px solid white;
-      color: white;
-      outline: none;
-      font-size: 1.3rem;
-      text-align: center;
-      border-radius: 15rem;
-      padding: 0 1rem 0 1rem;
-    } 
+   
     .servico{
       
         position: absolute;
@@ -361,7 +352,7 @@ body{
         align-items: flex-end;
         width: 20vw;
        
-        margin-top: 13rem;
+        margin-top: 7rem;
         color: black;
         
     }
@@ -369,15 +360,51 @@ body{
       width: 20vw;
       height: 5vh;
       background-color: transparent;
-      border: 2px solid white;
+      border: 1px solid white;
       color: white;
         outline: none;
-        font-size: 1.3rem;
+        font-size: 1rem;
         text-align: center;
         border-radius: 15rem;
         padding: 0 1rem 0 0.8rem;
     } 
-    
+    .funcionario{
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-end;
+      width: 20vw;
+      height: 0vh;
+      margin-top: 12rem;
+      color: black;
+      
+  }
+  
+  .funcionario #funcionario{
+    width: 20vw;
+    height: 5vh;
+    background-color: transparent;
+    border: 0.5px solid white;
+    color: white;
+    outline: none;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 15rem;
+    padding: 0 1rem 0 1rem;
+  } 
+  .form{
+    width: 30vw;
+    margin-top: 12.5rem;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      font-size: 1rem;
+      font-weight: none;
+      color: white;
+     margin-left: 1rem;
+      
+  
+  }
     .form-pague{
      
         position: absolute;
@@ -386,61 +413,48 @@ body{
         align-items: flex-end;
         width: 30vw;
         height: 0vh;
-        margin-top: 25rem;
-        z-index: 1;
-        
+        margin-top: 16.6rem;
+        z-index: 1; 
         
     }
+  
     .form-pague #form-pague{
         width: 20vw;
         height: 5vh;
         background-color: transparent;
-        border: 2px solid white;
+        border: 1px solid white;
         color: white;
         outline: none;
-        font-size: 1.5rem;
+        font-size: 1rem;
         text-align: center;
         border-radius: 15rem;
         padding: 0 1rem 0 1rem;
     
     } 
     
-    .form{
-      width: 30vw;
-      margin-top: 20rem;
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
-        font-size: 1.5rem;
-        font-weight: none;
-        color: white;
-       margin-left: 1rem;
-        
-    
-    }
+   
     
     
     .btn-continua{
-        position: absolute;
-        display: flex;
-        justify-content: flex-end;
-        align-items: flex-end;
-        width: 27.9vw;
-        height: 0vh;
-        margin-top: 31.8rem;
+      position: absolute;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      margin-right: -11rem;
+       
+      height: 62vh;
     }
     .btn-continua button{
-        background-color: #ED8C1A;
-        padding: 0.5rem 1rem 0.5rem 1rem;
-        border: 2px solid  transparent;
-        cursor: pointer;
-        transition: background .3s;
-        border-radius: 5px;
-        color: black;
-        font-weight: bold;
-        font-size: 1.2rem;
-        border-radius: 25rem;
+      background-color: #ED8C1A;
+      padding: 0.5rem 4rem 0.5rem 4rem;
+      border: 1px solid  transparent;
+      cursor: pointer;
+      transition: background .3s;
+      border-radius: 5px;
+      color: black;
+      font-weight: bold;
+      font-size: 1rem;
+      border-radius: 25rem;
     }
     
     .btn-continua button:hover{
