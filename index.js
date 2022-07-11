@@ -36,25 +36,25 @@ app.get('/servico', (req, res) => {
 
 // region ADM
 
-app.use('/admm', express.static(__dirname + '/System ADM BArbearia/template'))
+app.use('/adm', express.static(__dirname + '/System ADM BArbearia/template'))
 
 app.get('/adm/cadastro', (req, res) => {
   res.render('admhtml/cadastroadm');
 
 });
 
-app.get('/configconta', (req, res) => {
-  res.render('configconta');
+app.get('/adm/configconta', (req, res) => {
+  res.render('admhtml/configconta');
 
 });
 
-app.get('/configgeral', (req, res) => {
-  res.render('configgeral');
+app.get('/adm/configgeral', (req, res) => {
+  res.render('admhtml/configgeral');
 
 });
 
-app.get('/lista', (req, res) => {
-  res.render('lista');
+app.get('/adm/lista', (req, res) => {
+  res.render('admhtml/lista');
 
 });
 // endregion
