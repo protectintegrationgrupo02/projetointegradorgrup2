@@ -1,13 +1,15 @@
 .demo
 {
-	padding: 100px 0;
+	padding: 10rem 0;
     background: linear-gradient( rgba(0,0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../imag/background.png');
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 }
 .heading-title
 {
-	margin-bottom: 100px;
+    font-size: 3rem;
+	margin-bottom: 10rem;
     color: white;
     margin-bottom: 2rem;
     margin-top: -5rem;
@@ -17,7 +19,7 @@
     position: absolute;
     margin-top: -4.9rem;
     margin-left: -16rem;
-    font-size: 3.8rem;
+    font-size: 3rem;
     color: white;
 }.pricingTable{
     background: linear-gradient( rgba(0,0, 0, 0.6), rgba(0, 0, 0, 0.6));
@@ -41,15 +43,15 @@
 }
 
 .pricingTable:before{
-    border-right: 2px solid #08c6aa;
-    border-left: 2px solid #08c6aa;
+    border-right: 2px solid #ED8C1A;
+    border-left: 2px solid #ED8C1A;
     transform: scaleY(0);
     transform-origin: 100% 0 0;
 }
 
 .pricingTable:after{
-    border-bottom: 2px solid #08c6aa;
-    border-top: 2px solid #08c6aa;
+    border-bottom: 2px solid #ED8C1A;
+    border-top: 2px solid #ED8C1A;
     transform: scaleX(0);
     transform-origin: 0 100% 0;
 }
@@ -63,10 +65,10 @@
 }
 
 .pricingTable .pricingTable-header{
-    background: #08c6aa;
+    background: #ED8C1A;
     color: #fff;
-    margin: -2px -2px 35px;
-    padding: 40px 0;
+    margin: -2rem -0.3rem 1rem;
+    padding: 1rem 0;
 }
 
 .pricingTable .heading{
@@ -129,8 +131,8 @@
 }
 
 .pricingTable .read:hover{
-    border-color: #08c6aa;
-    color: #08c6aa;
+    border-color: #ED8C1A;
+    color: #ED8C1A;
 }
 
 .pricingTable .read i{
@@ -169,7 +171,7 @@
 
 .pricingTable .read:hover:before,
 .pricingTable .read:hover:after{
-    border-left-color: #08c6aa;
+    border-left-color: #ED8C1A;
 }
 
 #bus{
