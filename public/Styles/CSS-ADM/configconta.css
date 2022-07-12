@@ -52,10 +52,11 @@ body{
 }
 
 .title h2{
- padding: 0 23rem 0 0;
+ padding: 0 19rem 0 0;
 }
 .title p{
-    padding: 0 1rem 0 0;
+    padding: 0 2.09rem 0 0;
+    font-size: 0.8rem;
 }
 .info-pessoa{
     display: flex;
@@ -68,7 +69,7 @@ body{
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 1rem 10rem 0 0;
+    padding: 0.1rem 5rem 0 0;
 }
 
 .nomes{
@@ -77,7 +78,7 @@ body{
     display: flex;
     justify-content: flex-end;
     align-items:flex-end;
-    margin-top: 6rem;
+    margin-top: 4rem;
 }
 
 .nomes input{
@@ -88,7 +89,7 @@ body{
     outline: none;
     padding: 0 0 0 1rem;
     color: #191c24;
-    font-size: 1rem;
+    font-size:0.9rem;
     font-weight: bold;
     background-color: dimgray;
   
@@ -102,7 +103,7 @@ body{
     display: flex;
     justify-content: flex-start;
     align-items:flex-end;
-    margin-top: 11rem;
+    margin-top: 8rem;
     
 }
 .emails input{
@@ -113,7 +114,7 @@ body{
     outline: none;
     padding: 0 0 0 1rem;
     color: #191c24;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: bold;
     background-color: dimgray;
     
@@ -129,7 +130,7 @@ body{
     display: flex;
     justify-content: flex-start;
     align-items:flex-end;
-    margin-top: 15.9rem;
+    margin-top: 11.9rem;
 
 }
 .cel input{
@@ -140,7 +141,7 @@ body{
     outline: none;
     padding: 0 0 0 1rem;
     color: #191c24;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: bold;
     background-color: dimgray
 }
@@ -163,17 +164,17 @@ body{
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-    margin-top: 21rem;
+    margin-top: 16rem;
 }
 .empresa h3{
-    padding: 1rem -15rem 0 0;
+    padding: -2rem -14rem 0 0;
 }
 .empre{
    position: absolute;
    display: flex;
    justify-content: flex-start;
    align-items: flex-end;
-   margin-top: 10.5rem;
+   margin-top: 5rem;
    padding: 15rem 0 0 0 ;
 }
 .empre input{
@@ -184,7 +185,7 @@ body{
     outline: none;
     padding: 0 0 0 1rem;
     color: #191c24;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: bold;
     background-color: dimgray;
 }
@@ -197,7 +198,7 @@ body{
     display: flex;
     justify-content: flex-start;
     align-items:flex-end;
-    margin-top: 30.3rem;
+    margin-top: 23.8rem;
 }
 .cnpj input{
     width: 11vw;
@@ -207,20 +208,21 @@ body{
     outline: none;
     padding: 0 0 0 1rem;
     color: #191c24;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: bold;
     background-color: dimgray
 }
 .cnpj input::placeholder{
     color: #191c24;
+    text-align: start;
 }
 .btn-salvar{
     position: absolute;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    margin-top: 35rem;
-    width: 29rem;  
+    margin-top: 30rem;
+    width: 24rem;  
 }
 .btn-salvar a button{
     background-color: #ED8C1A;
@@ -252,18 +254,20 @@ body{
 }
 .senha h3{
     width: 26.5vw;
-    margin-top: 17rem;
+    margin-top: 14rem;
+    font-size: 0.8rem;
 }
 .legen{
     position: absolute;
     width: 26.9vw;
-    margin-top: 26.3rem;
+    margin-top: 22rem;
+    font-size: 0.9rem;
 }
 
 .atual{
     position: absolute;
     width: 27vw;
-    margin-top: 30rem;
+    margin-top: 25rem;
 }
 .atual input{
     width: 11vw;
@@ -273,7 +277,7 @@ body{
     outline: none;
     padding: 0 0 0 1rem;
     color: #191c24;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: bold;  
 }
 .atual input::placeholder{
@@ -282,7 +286,7 @@ body{
 .nova{
     position: absolute;
     width: 27vw;
-    margin-top: 34.5rem;
+    margin-top: 29rem;
 }
 .nova input{
     width: 11vw;
@@ -292,7 +296,7 @@ body{
     outline: none;
     padding: 0 0 0 1rem;
     color: #191c24;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: bold;  
 }
 .nova input::placeholder{
@@ -301,7 +305,7 @@ body{
 .conf{
     position: absolute;
     width: 27vw;
-    margin-top: 39rem;
+    margin-top: 33rem;
 }
 .conf input{
     width: 11vw;
@@ -311,7 +315,7 @@ body{
     outline: none;
     padding: 0 0 0 1rem;
     color: #191c24;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: bold;  
 }
 .conf input::placeholder{
@@ -323,8 +327,8 @@ body{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    margin-top: 45rem;
-    width:18vw ;
+    margin-top: 38rem;
+    width:14vw ;
 }
 .btn-atualiza a button{
     background-color: #ED8C1A;
@@ -334,7 +338,7 @@ body{
     transition: background .3s;
     color: black;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 0.9rem;
     border-radius: 25rem;
     
 }
@@ -354,8 +358,8 @@ body{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    margin-top: 45rem;
-    width: 29vw;;
+    margin-top: 38rem;
+    width: 28vw;;
 }
 .btn-cancelar a button{
     background-color: cornflowerblue;

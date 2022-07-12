@@ -28,6 +28,10 @@ app.get('/indextelainicial', (req, res) => {
   res.render('indextelainicial');
 
 });
+app.get('/recuperasenha', (req, res) => {
+  res.render('recuperasenha');
+
+});
 
 app.get('/servico', (req, res) => {
   res.render('servico');
