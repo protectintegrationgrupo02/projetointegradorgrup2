@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #D3C3AA;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6);
+    width: 100vw;
+    height: 100vh;
+}
+/*CONFIGURAÇÕES / CONTA*/
+.moldal-config{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    width: 31vw;
+    height: 90vh;
+    background-color:#424242 ;
+}
+.modal-headers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 13vh;
+}
+.modal-headers p{
+ font-size: 1.5rem;
+}
+
+.modal-bodys {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -1rem;
+}
+
+.title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title h2{
+ padding: 0 19rem 0 0;
+}
+.title p{
+    padding: 0 2.09rem 0 0;
+    font-size: 0.8rem;
+}
+.info-pessoa{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1rem;
+}
+.info{
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0.1rem 5rem 0 0;
+}
+
+.nomes{
+    
+    position:absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    margin-top: 4rem;
+}
+
+.nomes input{
+    width: 20vw;
+    height: 3.5vh;
+    border-radius: 25rem;
+    border: none;
+    outline: none;
+    padding: 0 0 0 1rem;
+    color: #191c24;
+    font-size:0.9rem;
+    font-weight: bold;
+    background-color: dimgray;
+  
+}
+.nomes input::placeholder{
+    color: #191c24;
+}
+
+.emails{
+    position:absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-end;
+    margin-top: 8rem;
+    
+}
+.emails input{
+    width: 20vw;
+    height: 3.5vh;
+    border-radius: 25rem;
+    border: none;
+    outline: none;
+    padding: 0 0 0 1rem;
+    color: #191c24;
+    font-size: 0.9rem;
+    font-weight: bold;
+    background-color: dimgray;
+    
+    
+}
+.emails input::placeholder{
+    color: #191c24;
+    
+}
+.cel{
+    
+    position:absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-end;
+    margin-top: 11.9rem;
+
+}
+.cel input{
+    width: 10vw;
+    height: 3.5vh;
+    border-radius: 25rem;
+    border: none;
+    outline: none;
+    padding: 0 0 0 1rem;
+    color: #191c24;
+    font-size: 0.9rem;
+    font-weight: bold;
+    background-color: dimgray
+}
+.cel input::placeholder{
+    color: #191c24;
+}
+
+.alter{
+    text-decoration: none;
+    padding: 0 0 0.2rem 0.8rem;
+}
+.alter p{
+    color: blue;
+}
+/*CONFIGURAÇÕES / CONTA - FIM  */
+
+
+.empresa{
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-top: 16rem;
+}
+.empresa h3{
+    padding: -2rem -14rem 0 0;
+}
+.empre{
+   position: absolute;
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-end;
+   margin-top: 5rem;
+   padding: 15rem 0 0 0 ;
+}
+.empre input{
+    width: 20vw;
+    height: 3.5vh;
+    border-radius: 25rem;
+    border: none;
+    outline: none;
+    padding: 0 0 0 1rem;
+    color: #191c24;
+    font-size: 0.9rem;
+    font-weight: bold;
+    background-color: dimgray;
+}
+.empre input::placeholder{
+    color: #191c24;
+}
+
+.cnpj{
+    position:absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-end;
+    margin-top: 23.8rem;
+}
+.cnpj input{
+    width: 11vw;
+    height: 3.5vh;
+    border-radius: 25rem;
+    border: none;
+    outline: none;
+    padding: 0 0 0 1rem;
+    color: #191c24;
+    font-size: 0.8rem;
+    font-weight: bold;
+    background-color: dimgray
+}
+.cnpj input::placeholder{
+    color: #191c24;
+    text-align: start;
+}
+.btn-salvar{
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 30rem;
+    width: 24rem;  
+}
+.btn-salvar a button{
+    background-color: black;
+    padding: 0.2rem 2rem 0.2rem 2rem;
+    border: 2px solid  transparent;
+    cursor: pointer;
+    transition: background .3s;
+    color:#D3C3AA;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 25rem;
+    
+}
+.btn-salvar button:hover{
+    background-color: #D3C3AA;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.btn-salvar button:active{
+    background-color: #D3C3AA;
+    color: #424242;  
+}
+.senha{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;  
+}
+.senha h3{
+    width: 26.5vw;
+    margin-top: 14rem;
+    font-size: 0.8rem;
+}
+.legen{
+    position: absolute;
+    width: 26.9vw;
+    margin-top: 22rem;
+    font-size: 0.9rem;
+}
+
+.atual{
+    position: absolute;
+    width: 27vw;
+    margin-top: 25rem;
+}
+.atual input{
+    width: 11vw;
+    height: 3.5vh;
+    border-radius: 25rem;
+    border: none;
+    outline: none;
+    padding: 0 0 0 1rem;
+    color: #191c24;
+    font-size: 0.9rem;
+    font-weight: bold;  
+    background-color: #D3C3AA;
+}
+.atual input::placeholder{
+    color: #191c24;
+    background-color: #D3C3AA;
+}
+.nova{
+    position: absolute;
+    width: 27vw;
+    margin-top: 29rem;
+}
+.nova input{
+    width: 11vw;
+    height: 3.5vh;
+    border-radius: 25rem;
+    border: none;
+    outline: none;
+    padding: 0 0 0 1rem;
+    color: #191c24;
+    font-size: 0.9rem;
+    font-weight: bold;  
+    background-color: #D3C3AA;
+}
+.nova input::placeholder{
+    color: #191c24;
+}
+.conf{
+    position: absolute;
+    width: 27vw;
+    margin-top: 33rem;
+}
+.conf input{
+    width: 11vw;
+    height: 3.5vh;
+    border-radius: 25rem;
+    border: none;
+    outline: none;
+    padding: 0 0 0 1rem;
+    color: #191c24;
+    font-size: 0.8rem;
+    font-weight: bold;  
+    background-color: #D3C3AA;
+}
+.conf input::placeholder{
+    color: #191c24;
+}
+
+.btn-atualiza{
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 38rem;
+    width:14vw ;
+}
+.btn-atualiza a button{
+    background-color: black;
+    padding: 0.2rem 1rem 0.2rem 1rem;
+    border: 2px solid  transparent;
+    cursor: pointer;
+    transition: background .3s;
+    color: #D3C3AA;
+    font-weight: bold;
+    font-size: 0.9rem;
+    border-radius: 25rem;
+    
+}
+.btn-atualiza button:hover{
+    background-color:#D3C3AA ;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.btn-atualiza button:active{
+    background-color: #D3C3AA;
+    color: rgba(0, 0, 0, 0.6);  
+}
+.btn-cancelar{
+    
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 38rem;
+   margin-left: 18.5rem;
+}
+.btn-cancelar a button{
+    background-color: #424242;
+    padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+    border: 1px solid #D3C3AA ;
+    cursor: pointer;
+    transition: background .3s;
+    color: #D3C3AA;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 25rem;
+    
+}
+.btn-cancelar button:hover{
+    background-color: black;
+    color: #D3C3AA;
+    font-weight: bold;
+    
+}
+
+.btn-cancelar button:active{
+    background-color: #D3C3AA;
+    color: #424242;  
+}
+
+

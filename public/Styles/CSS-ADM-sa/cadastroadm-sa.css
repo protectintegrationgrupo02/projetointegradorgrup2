@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6);
+    width: 100vw;
+    height: 100vh;
+}
+
+.container-cadastreadm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 28vw;
+    height: 45vh;
+    background-color:#424242 ;
+    border-radius: 1rem;
+}
+.adm-titulo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.adm-titulo h2{
+    margin-top: -8rem;
+    color: #D3C3AA;
+}
+.nome-empresar{
+    position:absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    margin-top: -9rem;
+}
+.nome-empresar input{
+    width: 18vw;
+    height: 3.5vh;
+    border-radius: 25rem;
+    border: none;
+    outline: none;
+    padding: 0 0 0 1rem;
+    color: #191c24;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #D3C3AA;
+}
+.nome-empresar input::placeholder{
+    color: #191c24;
+    background-color: #D3C3AA;
+}
+.cnpjs{
+    position:absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    margin-top: -5rem;
+    
+}
+
+.cnpjs input{
+    width: 18vw;
+    height: 3.5vh;
+    border-radius: 25rem;
+    border: none;
+    outline: none;
+    padding: 0 0 0 1rem;
+    color: #191c24;
+    font-size: 1rem;
+    font-weight: bold; 
+    background-color: #D3C3AA;
+}
+.cnpjs input::placeholder{
+    color: #191c24;
+}
+
+.endereco{
+    position:absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    margin-top: -1rem;
+}
+.endereco input{
+    width: 18vw;
+    height: 3.5vh;
+    border-radius: 25rem;
+    border: none;
+    outline: none;
+    padding: 0 0 0 1rem;
+    color: #191c24;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #D3C3AA;
+}
+.endereco input::placeholder{
+    color: #191c24;
+    background-color: #D3C3AA;
+}
+.numeros{
+    position:absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-end;
+    margin-top: 3rem;
+    padding: 0 12rem 0 1rem;
+    
+}
+.numeros input{
+    width: 5vw;
+    height: 3.5vh;
+    border-radius: 25rem;
+    border: none;
+    outline: none;
+    padding: 0 0 0 0.5rem;
+    color: #191c24;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #D3C3AA;
+}
+.numeros  input::placeholder{
+    color: #191c24;
+    background-color: #D3C3AA;
+}
+
+.complemento{
+    
+    position:absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    margin-top: 3rem;
+    margin-right: -5rem;
+    padding: 0 2rem 0 1.5rem;
+    float:right;
+}
+.complemento input{
+    width: 12.8vw;
+    height: 3.5vh;
+    border-radius: 25rem;
+    border: none;
+    outline: none;
+    padding: 0 0 0 0.5rem;
+    color: #191c24;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #D3C3AA;
+}
+.complemento  input::placeholder{
+    color: #191c24;
+    background-color: #D3C3AA;
+}
+
+.bairro{
+   
+    position:absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-end;
+    margin-top: 6.8rem;
+    margin-right: 8.9rem;
+    padding: 0 1rem 0 1rem;
+    float:right;
+}
+.bairro input{
+    width: 8vw;
+    height: 3.5vh;
+    border-radius: 25rem;
+    border: none;
+    outline: none;
+    padding: 0 0 0 0.7rem;
+    color: #191c24;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #D3C3AA;
+}
+.bairro  input::placeholder{
+    color: #191c24;
+    background-color: #D3C3AA;
+}
+
+.cep{
+   
+    position:absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-end;
+    margin-top: 6.8rem;
+    margin-right: -11rem;
+    padding: 0 5rem 0 1rem;
+    float:right;
+}
+.cep input{
+    width: 9.6vw;
+    height: 3.5vh;
+    border-radius: 25rem;
+    border: none;
+    outline: none;
+    padding: 0 0 0 0.7rem;
+    color: #191c24;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #D3C3AA;
+}
+.cep  input::placeholder{
+    color: #191c24;
+    background-color: #D3C3AA;
+}
+
+.btn-prosseguir{
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 14rem;
+    width: 29rem;  
+    margin-right: 7rem;
+}
+.btn-prosseguir a button{
+    background-color: black;
+    padding: 0.2rem 2rem 0.2rem 2rem;
+    border: 2px solid  transparent;
+    cursor: pointer;
+    transition: background .3s;
+    color: #D3C3AA;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 25rem;   
+}
+.btn-prosseguir button:hover{
+    background-color: #D3C3AA;
+    color: black;
+    font-weight: bold;
+    
+}
+
+

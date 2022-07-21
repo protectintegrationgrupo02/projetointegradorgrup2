@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+section{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.6);
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.box{
+    position: relative;
+    min-height: 100px;
+    min-width:400px;
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    z-index: 10;
+    padding: 20px;
+    backdrop-filter: blur(25px);
+}
+
+.box h3{
+    color: #D3C3AA;
+    margin-bottom:20px;
+    margin-left: 3rem;
+}
+
+.box .list{
+    position: relative;
+    display: flex;
+    padding: 10px ;
+    background: #D3C3AA;
+    border-radius:10px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+    overflow: hidden;
+
+   
+}
+
+.box .list:hover{
+    background-color: #424242;
+    box-shadow: -15px 30px 50px transparent;
+    transform: scale(1.01) translateX(30px) translateY(-15px);
+    z-index: 1000;
+   
+}
+
+.box .list .imgBx{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 10px;
+   
+}
+
+.box .list .imgBx img {
+
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box .list .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #424242;
+    font-weight: bold;
+}
+
+.box .list .content .rank{
+   position: absolute;
+   right:-50px;
+   color: #D3C3AA;
+   transition: 0.5s;
+   font-size: 1rem;
+}
+
+.box .list .content .rank small{
+      font-weight: 100;
+      opacity: 0.25;
+}
+.box .list:hover .content .rank{
+    right: 20px;
+}
+
+.box .list .content h4{
+    margin-left: 0.5rem;
+    font-weight: 200;
+    transition: 0.5s;
+    color: #424242;
+    font-weight: bold;
+  
+}
+
+.box .list .content p{
+    font-size:0.70rem;
+   margin-left: 0.5rem;
+    transition: 0.5s;
+  
+}
+.box .list:hover .content h4,
+.box .list:hover .content p{
+    color: #D3C3AA;
+}
+.volta i{
+  font-size: 2rem;
+  margin-left: -1.1rem;
+  margin-top: -1rem;
+  position: absolute;
+  color: #D3C3AA;
+  padding: 1rem 2rem;
+
+}

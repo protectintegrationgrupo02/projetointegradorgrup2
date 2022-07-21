@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background: linear-gradient( rgba(0,0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../imag/back01.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 71.8vh;
+    
+}
+.caixa-recupera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 11rem;
+}
+.container-recuperasenha{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   width: 35vw;
+   height: 42vh;
+   background: linear-gradient(rgba(209,30,95,.5),rgba(209,30,95,.5) );
+   border-radius: 1rem;
+}
+.recupera-titulo{
+   display: flex;
+   justify-content: flex-start;
+   margin-right: 16rem;
+  
+}
+.recupera-titulo h2{
+   margin-top: -3.3rem;
+   color: white;
+   font-size: 1.5rem;
+}
+.recupera-descricao{
+   display: flex;
+   justify-content: flex-start;
+   margin-top: 7.5rem;
+   margin-right: 8rem;
+}
+.recupera-descricao p{
+   margin-top: -8.9rem;
+   color: white;
+}
+.email-celular{
+   position:absolute;
+   display: flex;
+   justify-content: flex-start;
+   align-items:flex-end;
+   margin-right: -0.5rem;
+   margin-top: 2rem;
+   
+}
+.email-celular input{
+   width: 31vw;
+   height: 8vh;
+   border-radius: 25rem;
+   border: 1px solid wheat;
+   outline: none;
+   padding: 0 10rem 0 2rem;
+   color: white;
+   font-size: 1.2rem;
+   background:transparent;
+   
+}
+.email-celular input::placeholder{
+    color: white;
+}
+
+
+.btn-cancela{
+   position: absolute;
+   display: flex;
+   justify-content: flex-end;
+   align-items: flex-end;
+   margin-top: 12rem;
+   width: 6rem;  
+}
+.btn-cancela a button{
+   background-color: transparent;
+   padding: 0.5rem 2rem 0.5rem 2rem;
+   border: 1px solid  transparent;
+   cursor: pointer;
+   transition: background .3s;
+   color: white;
+   border: 1px solid white;
+   font-size: 1rem;
+   border-radius: 25rem;   
+}
+.btn-cancela button:hover{
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6) );
+   color: white;
+   
+   
+}
+
+
+.btn-pesquisar{
+    
+   position: absolute;
+   display: flex;
+   justify-content: flex-end;
+   align-items: flex-end;
+   margin-top: 12rem;
+   margin-right: -17.5rem; 
+}
+.btn-pesquisar a button{
+   background-color: white;
+   padding: 0.3rem 2.5rem 0.3rem 2.5rem;
+   border: 1px solid  transparent;
+   cursor: pointer;
+   transition: background .3s;
+   color: black;
+   font-weight: bold;
+   font-size: 1.2rem;
+   border-radius: 25rem;   
+}
+.btn-pesquisar button:hover{
+   background-color: rgba(0, 0, 0, 0.5);
+   color: white;
+   
+   
+}

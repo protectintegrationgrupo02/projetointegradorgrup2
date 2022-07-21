@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Configuração</title>
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/public/Styles/CSS-ADM-sa/configgeral-sa.css">
+</head>
+
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+        <div class="logo_name">Configuração</div>
+        <i class='bx bx-menu' id="btn" ></i>
+    </div>
+    <ul class="nav-list">
+      <li>
+          <i class='bx bx-search' ></i>
+         <input type="text" placeholder="Search...">
+         <span class="tooltip">Search</span>
+      </li>
+      <li>
+        <a target="_self" href="#aparence">
+          <i class='bx bx-palette'></i>
+          <span class="links_name">Aparência</span>
+        </a>
+         <span class="tooltip">Aparência</span>
+      </li>
+      <li>
+       <!-- <a target="_self" href="">
+         <i class='bx bx-user' ></i>
+         <span class="links_name"></span>
+       </a>
+       <span class="tooltip"></span>
+     </li>
+     <li>
+       <a href="">
+        <i class='bx bx-user-pin' ></i>
+         <span class="links_name"></span>
+       </a>
+       <span class="tooltip"></span>
+     </li>
+    <li>
+       <a href="#">
+         <i class='bx bx-pie-chart-alt-2' ></i>
+         <span class="links_name">Analytics</span>
+       </a>
+       <span class="tooltip">Analytics</span>
+     </li>
+     <li>
+       <a href="#">
+         <i class='bx bx-folder' ></i>
+         <span class="links_name">File Manager</span>
+       </a>
+       <span class="tooltip">Files</span>
+     </li>
+     <li>
+       <a href="#">
+         <i class='bx bx-cart-alt' ></i>
+         <span class="links_name">Order</span>
+       </a>
+       <span class="tooltip">Order</span>
+     </li>
+     <li>
+       <a href="#">
+         <i class='bx bx-heart' ></i>
+         <span class="links_name">Saved</span>
+       </a>
+       <span class="tooltip">Saved</span>
+     </li>
+     <li>
+       <a href="#">
+         <i class='bx bx-cog' ></i>
+         <span class="links_name">Setting</span>
+       </a>
+       <span class="tooltip">Setting</span>
+     </li>--> 
+     <li class="profile">
+         <div class="profile-details">
+           
+           <div class="name_job">
+             <div class="name">Barbearia Admin</div>
+             <div class="job">Grupo 2</div>
+           </div>
+         </div>
+         <a href="/adm">
+         <i class='bx bx-log-out' id="log_out" ></i></a>
+     </li>
+    </ul>
+  </div>
+
+  <div class="visual">
+    <div class="title-visual">
+      <h1 id="aparence">Aparência</h1>
+    </div>
+    <div class="descre01">
+      <p>Controle como a ADM Barbearia funciona neste dispositivo</p>
+    </div>
+    <div class="modo">
+      <h3>Modo</h3>
+    </div>
+    <div class="descre02">
+      <p>Selecione entre o modo escuro e o claro</p>
+    </div>
+    <div>
+      <div class="check">
+      <label class="rad-label">
+        <input type="radio" class="rad-input" name="rad">
+        <div class="rad-design"></div>
+        <div class="rad-text">Configurações do dispositivo</div>
+      </label>
+    
+      <label class="rad-label">
+        <input type="radio" class="rad-input" name="rad">
+        <div class="rad-design"></div>
+        <div class="rad-text">Modo Escuro</div>
+      </label>
+    
+      <label class="rad-label">
+        <input type="radio" class="rad-input" name="rad">
+        <div class="rad-design"></div>
+        <div class="rad-text">Modo Claro</div>
+      </label>
+    
+    </div>
+    
+    </div>
+
+ 
+  <script>
+    let sidebar = document.querySelector(".sidebar");
+    let closeBtn = document.querySelector("#btn");
+    let searchBtn = document.querySelector(".bx-search");
+  
+   // closeBtn.addEventListener("click", ()=>{
+      sidebar.classList.toggle("open");
+      menuBtnChange();//calling the function(optional)
+   // });
+  
+    searchBtn.addEventListener("click", ()=>{ // Sidebar open when you click on the search iocn
+      sidebar.classList.toggle("open");
+      menuBtnChange(); //calling the function(optional)
+    });
+  
+    // following are the code to change sidebar button(optional)
+    function menuBtnChange() {
+     if(sidebar.classList.contains("open")){
+       closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");//replacing the iocns class
+     }else {
+       closeBtn.classList.replace("bx-menu-alt-right","bx-menu");//replacing the iocns class
+     }
+    }
+    </script>
+  </body>
+</html>
