@@ -1,13 +1,22 @@
 const express = require('express');
 const app = express();
 const path = require('path');
-const pathCode = path.join(__dirname,'views/salao');
-//const viewPath = path.join(__dirname,'views/Barbearia');
-
+//const pathCode = path.join(__dirname,'views/salao');
+const viewPath = path.join(__dirname,'views/Barbearia');
 const PORT = 3000;
 
-///app.set('views', viewPath);
-app.set('views', pathCode);
+//PONTO 01//
+//O que esta comentado aqui é o que eu tava tentando fazer, no caso aqui na linha 5 e 18 tem esse metodo
+//onde eu possa chegar ate os arquivos Ejs na views, onde eu criei duas pastas uma de salão e outra
+//de barbearia e que pudesse ser executadas na mesma porta, mas so que ao fazer o metodo para salão
+//do mesmo jeito que barbearia, ai não funionou salão//
+
+//PONTO 02//
+//segundo ponto é que esta tendo conflito no ADM do Salão de beleza,  
+//ao chamar a tela de lista de atendimento, configuração de conta
+// e configuração geral "DO PROJETO SALÃO DE BELEZA" ///
+app.set('views', viewPath);
+//app.set('views', pathCode);
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
 app.use(express.json());
