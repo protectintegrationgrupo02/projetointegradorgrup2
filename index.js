@@ -1,8 +1,5 @@
 const express = require('express');
 const app = express();
-const path = require('path');
-//const pathCode = path.join(__dirname,'views/salao');
-const viewPath = path.join(__dirname,'views/Barbearia');
 const PORT = 3000;
 
 //PONTO 01//
@@ -15,40 +12,48 @@ const PORT = 3000;
 //segundo ponto é que esta tendo conflito no ADM do Salão de beleza,  
 //ao chamar a tela de lista de atendimento, configuração de conta
 // e configuração geral "DO PROJETO SALÃO DE BELEZA" ///
-app.set('views', viewPath);
-//app.set('views', pathCode);
+
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-app.get('/', (req, res) => {
-  res.render('home');
+// TELA INICIAL //
+
+app.get('/Home', (req, res) => {
+  res.render('index');
+});
+
+//
+
+
+app.get('/barbearia/home', (req, res) => {
+  res.render('Barbearia/telainicial');
 });
 
 app.get('/telainicial/sobre', (req, res) => {
-  res.render('sobre');
+  res.render('Barbearia/sobre');
 });
 
 app.get('/telainicial/agenda', (req, res) => {
-  res.render('agenda');
+  res.render('Barbearia/agenda');
 });
 
 app.get('/telainicial/planos', (req, res) => {
-  res.render('planos');
+  res.render('Barbearia/planos');
 
 });
 
 app.get('/telainicial/barbearia', (req, res) => {
-  res.render('telainicial');
+  res.render('Barbearia/telainicial');
 });
 app.get('/telainicial/recuperasenha', (req, res) => {
-  res.render('recuperasenha');
+  res.render('Barbearia/recuperasenha');
 
 });
 
 app.get('/telainicial/servico', (req, res) => {
-  res.render('servico');
+  res.render('Barbearia/servico');
 
 });
 
@@ -57,52 +62,56 @@ app.get('/telainicial/servico', (req, res) => {
 app.use('/adm', express.static(__dirname + '/System ADM BArbearia/template'))
 
 app.get('/adm/cadastro', (req, res) => {
-  res.render('cadastroadm');
+  res.render('Barbearia/cadastroadm');
 
 });
 
 app.get('/adm/configconta', (req, res) => {
-  res.render('configconta');
+  res.render('Barbearia/configconta');
 
 });
 
 app.get('/adm/configgeral', (req, res) => {
-  res.render('configgeral');
+  res.render('Barbearia/configgeral');
 
 });
 
 app.get('/adm/lista', (req, res) => {
-  res.render('lista');
+  res.render('Barbearia/lista');
 
 });
 // endregion
 
 ///ROUTS DO SALÃO DE BELEZA//////
 
+app.get('/salao/home', (req, res) => {
+  res.render('salao/indextelainicial-sa');
+});
+
 app.get('/sobre.sa', (req, res) => {
-  res.render('sobre-sa');
+  res.render('salao/sobre-sa');
 });
 
 app.get('/agenda.sa', (req, res) => {
-  res.render('agenda-sa');
+  res.render('salao/agenda-sa');
 });
 
 app.get('/planos.sa', (req, res) => {
-  res.render('planos-sa');
+  res.render('salao/planos-sa');
 
 });
 
 app.get('/indextelainicial/salao', (req, res) => {
-  res.render('indextelainicial-sa');
+  res.render('salao/indextelainicial-sa');
 
 });
 app.get('/recuperasenha.sa', (req, res) => {
-  res.render('recuperasenha-sa');
+  res.render('salao/recuperasenha-sa');
 
 });
 
 app.get('/servico.sa', (req, res) => {
-  res.render('servico-sa');
+  res.render('salao/servico-sa');
 
 });
 
@@ -111,22 +120,22 @@ app.get('/servico.sa', (req, res) => {
 app.use('/adm.sa', express.static(__dirname + '/System ADM Salão/template'))
 
 app.get('/adm/cadastro.sa', (req, res) => {
-  res.render('cadastroadm-sa');
+  res.render('salao/cadastroadm-sa');
 
 });
 
 app.get('/adm/contaconf.sa', (req, res) => {
-  res.render('contaconf-sa');
+  res.render('salao/contaconf-sa');
 
 });
 
 app.get('/adm/configugeral.sa', (req, res) => {
-  res.render('geralconf-sa');
+  res.render('salao/geralconf-sa');
 
 });
 
 app.get('/adm/atendlist', (req, res) => {
-  res.render('atendimento-l');
+  res.render('salao/atendimento-l');
 
 });
 app.listen(PORT, () => console.info(`Server running on port ${PORT}`));
