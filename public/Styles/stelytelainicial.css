@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -15,7 +15,7 @@ body{
     background-size: cover;
     width: 100vw;
     height: 100vh;
-    font-family: 'Open Sans';
+   
     
 }
 /*INICIO DO MENU*/
@@ -558,20 +558,31 @@ body{
     width: 60vw;
     display: block;
 }
-
+.nomeum pre{
+  color: white;
+  font-size: 2.3rem;
+  margin: 3rem 0 -8.6rem 2rem;
+  font-family: 'Righteous', cursive;
+}
+.nomedois pre{
+  color: white;
+  font-size: 2.3rem;
+  margin: 28rem 0 -8.6rem 50rem;
+  font-family: 'Righteous', cursive;
+}
 /*CARROSSEL*/
 img {
-    width: 60vw;
-    height: 88.3vh;
+    width: 50vw;
+    height: 68.3vh;
     display: block;
   }
   /*slide01  */
   .slide {
     position: absolute;
-    width: 49.8vw;
-   margin-top: 0.1rem;
-   margin-left: 0.2rem;
-    height: 88.3vh;
+    width: 49.9vw;
+   margin-top: -0.1rem;
+   margin-left: 42.7rem;
+    height: 58.3vh;
     display: grid;
     box-shadow: 0 4px 10px 2px rgba(0, 0, 0, 0.4);
     z-index: -1;
@@ -648,9 +659,9 @@ img {
   .slide1 {
     position: absolute;
     width: 49.8vw;
-   margin-top: 0.1rem;
-   margin-left: 42.8rem;
-    height: 88.3vh;
+   margin-top: 11.8rem;
+   margin-left: 0.1rem;
+    height: 58.3vh;
     display: grid;
     box-shadow: 0 4px 20px 2px rgba(0, 0, 0, 0.4);
   }

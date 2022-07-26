@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
+@import url('http://fonts.cdnfonts.com/css/caviar-dreams');
 *{
     margin: 0;
     padding: 0;
@@ -526,7 +526,7 @@ body{
     
 }
 .btn-entrar1 a button{
-  background-color: white;
+      background-color: white;
       padding: 0.5rem 4rem 0.5rem 4rem;
       border: 1px solid  transparent;
       cursor: pointer;
@@ -536,7 +536,7 @@ body{
       font-weight: bold;
       font-size: 1rem;
       border-radius: 25rem;
-    
+   
 }
 .btn-entrar1 button:hover{
     background-color:  rgba(0,0,0,.4);
@@ -558,11 +558,30 @@ body{
     width: 60vw;
     display: block;
 }
+.conteudo{
+  position: absolute;
+  background: linear-gradient( rgba(0,0,0,.6), rgba(0,0,0,.6));
+  width: 100vw;
+  height: 88.8vh;
+  z-index: 3;
+}
+.info-salao{
+  color: white;
+  font-size: 2.2rem;
+  margin: 4rem 0 -8.6rem 2rem;
+  font-family: 'Caviar Dreams', sans-serif;
+}
+.info{
+  color: white;
+  font-size: 2rem;
+  margin: 22rem 0 -2rem 43rem;
+  font-family: 'Caviar Dreams', sans-serif;
+}
 
 /*CARROSSEL*/
 img {
     width: 60vw;
-    height: 88.3vh;
+    height: 100vh;
     display: block;
   }
   /*slide01  */
@@ -571,10 +590,10 @@ img {
     width: 49.8vw;
    margin-top: 0.1rem;
    margin-left: 0.2rem;
-    height: 88.3vh;
+    height: 88.5vh;
     display: grid;
     box-shadow: 0 4px 10px 2px transparent;
-    z-index: -1;
+    z-index: 0;
   }
   
   .slide-items {
@@ -647,10 +666,10 @@ img {
   
   .slide1 {
     position: absolute;
-    width: 49.8vw;
+    width: 49.9vw;
    margin-top: 0.1rem;
-   margin-left: 42.8rem;
-    height: 88.3vh;
+   margin-left: 42.6rem;
+    height: 88.5vh;
     display: grid;
     box-shadow: 0 4px 20px 2px transparent;
   }

@@ -1,3 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oxygen&family=Righteous&family=Roboto&family=Sarala:wght@400;700&family=Source+Sans+Pro:wght@300&display=swap');
+
+
+#header {
+    box-sizing: border-box;
+    height: 70px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6) );
+    font-family: 'Open Sans';
+
+    margin-top: -10rem;
+    margin-bottom: 4rem;
+  }
+  #logo{
+    color: white;
+    padding:0.1rem 1.5rem 0 0;
+    font-size: 2rem;
+}
+  
+  #menu {
+    display: flex;
+    list-style: none;
+    gap: 0.4rem;
+  }
+  
+  #menu a {
+    font-family: 'Open Sans';
+    display: block;
+    padding: 1rem 1.5rem 0 0;
+    color: white;
+    font-size: 2rem;
+  }
+  
+  #btn-mobile {
+    display: none;
+  }
+
+  .gb_Ba {
+    -webkit-background-size: 32px 32px;
+    background-size: 32px 32px;
+    border: 0;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    display: block;
+    margin-top: -0.2rem;
+    position: relative;
+    height: 35px;
+    width: 35px;
+    z-index: 0;
+    
+}
+
 .demo
 {
 	padding: 10rem 0;
@@ -6,14 +61,8 @@
     background-size: cover;
     height: 100vh;
 }
-.heading-title
-{
-    font-size: 3rem;
-	margin-bottom: 10rem;
-    color: white;
-    margin-bottom: 2rem;
-    margin-top: -5rem;
-}
+
+
 .bx.bxs-share
 {
     position: absolute;
