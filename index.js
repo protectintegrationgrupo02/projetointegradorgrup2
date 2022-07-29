@@ -24,7 +24,7 @@ app.get('/Home', (req, res) => {
   res.render('index');
 });
 
-//
+//atualização//
 
 
 app.get('/barbearia/home', (req, res) => {
