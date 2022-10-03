@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT ;
 
 //PONTO 01//
 //O que esta comentado aqui é o que eu tava tentando fazer, no caso aqui na linha 5 e 18 tem esse metodo

@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oxygen&family=Righteous&family=Roboto&family=Sarala:wght@400;700&family=Source+Sans+Pro:wght@300&display=swap');
 
+*{
+    list-style: none;
+    text-decoration: none;
+}
 
 #header {
     box-sizing: border-box;
@@ -10,7 +14,7 @@
     justify-content: space-between;
     background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6) );
     font-family: 'Open Sans';
-
+   
     margin-top: -10rem;
     margin-bottom: 4rem;
   }
@@ -32,6 +36,8 @@
     padding: 1rem 1.5rem 0 0;
     color: white;
     font-size: 2rem;
+    list-style: none;
+    text-decoration: none;
   }
   
   #btn-mobile {
@@ -107,10 +113,14 @@
 
 .pricingTable:hover:before{
     transform: scaleY(1);
+    list-style: none;
+    text-decoration: none;
 }
 
 .pricingTable:hover:after{
     transform: scaleX(1);
+    list-style: none;
+    text-decoration: none;
 }
 
 .pricingTable .pricingTable-header{
