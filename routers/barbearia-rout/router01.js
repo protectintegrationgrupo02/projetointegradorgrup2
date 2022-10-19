@@ -20,9 +20,7 @@
 
   routs.get("/agendamentos",agendamentoCtrl.getAllAgend);
   routs.post("/agendamentos",agendamentoCtrl.createAgend );
-  routs.put("/agendamentos/:id",agendamentoCtrl.updateAgend);
   routs.get("/agendamentos/:id",agendamentoCtrl.getuniqueAgend);
-  routs.delete("/agendamentos/:id",agendamentoCtrl.deleteAgend);
 
   routs.get("/adms",admCtrl.getAllAdm);
   routs.post("/adms",admCtrl.createAdm );
@@ -32,21 +30,15 @@
 
   routs.get("/servicos",servicoCtrl.getAllServ);
   routs.post("/servicos",servicoCtrl.createServ );
-  routs.put("/servicos/:id",servicoCtrl.updateServ);
   routs.get("/servicos/:id",servicoCtrl.getuniqueServ);
-  routs.delete("/servicos/:id",servicoCtrl.deleteServ);
 
   routs.get("/planos",planoCtrl.getAllPlano);
   routs.post("/planos",planoCtrl.createPlano );
-  routs.put("/planos/:id",planoCtrl.updatePlano);
   routs.get("/planos/:id",planoCtrl.getuniquePlano);
-  routs.delete("/planos/:id",planoCtrl.deletePlano);
 
   routs.get("/precos",precoCtrl.getAllPreco);
   routs.post("/precos",precoCtrl.createPreco );
-  routs.put("/precos/:id",precoCtrl.updatePreco);
   routs.get("/precos/:id",precoCtrl.getuniquePreco);
-  routs.delete("/precos/:id",precoCtrl.deletePreco);
 
   routs.get("/funcionarios",funcionCtrl.getAllFuncion);
   routs.post("/funcionarios",funcionCtrl.createFuncion );

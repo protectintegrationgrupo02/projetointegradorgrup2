@@ -23,29 +23,6 @@ const createAgend = async (req, res) => {
     }
   }
 
-
- const updateAgend = async (req, res) => {
-    try {
-      const id = parseInt(req.params.id);
-      const data = req.body;
-      
-     // data.disciplinas = {   
-      //    update: [
-      //         {
-     //             data: req.body.disciplinas,
-    //              where:{
-   //                   id: req.body.disciplinas.id
-   //               } 
-    //          }
-//]
-  //    };
-      const result = await prisma.agendamentos.update({ where: { id }, data });
-      res.send(result);
-    } catch (err) {
-      console.log(err);
-    }
-  }
-
  const getuniqueAgend = async (req, res) => {
     try {
       const id = parseInt(req.params.id);
@@ -56,19 +33,9 @@ const createAgend = async (req, res) => {
     }
   }
 
-const deleteAgend = async (req, res) => {
-    try {
-      const id = parseInt(req.params.id);
-      const result = await prisma.agendamentos.delete({ where: { id } });
-      res.send(result);
-    } catch (err) {
-      console.log(err);
-    }
-  }
+
   module.exports = {
     getAllAgend,
     createAgend,
-    updateAgend,
     getuniqueAgend,
-    deleteAgend
   };
